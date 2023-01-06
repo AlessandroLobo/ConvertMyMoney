@@ -1,0 +1,37 @@
+<%- include('header') %>
+
+<form class="mx-auto" method="GET" action="/cotacao" >
+  <a href="https://mercadocotacao.com/dolar-hoje/" id="USD" title="Dólar" name="mercado_cotacao">Dólar</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+  <br />
+  <br />
+  
+  <input
+    class="form-control  w-50 mx-auto"
+    name="cotacao"
+    placeholder="Cotação dólar"
+  />
+  <br /><br />
+  <input
+    class="form-control form-control-xl w-50 mx-auto"
+    name="quantidade"
+    placeholder="Quantidade dólar"
+  />
+  <br />
+  <br />
+  <button class="btn btn-primary mx-auto">Converter!</button>
+  <br />
+  <br />
+  <br />
+  <br />
+<a href="https://mercadocotacao.com/euro-hoje/" id="EUR" title="Euro" name="mercado_cotacao">Euro</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+
+<a href="https://mercadocotacao.com/bitcoin-hoje/" id="BTC" title="Bitcoin" name="mercado_cotacao">Bitcoin</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+
+
+<a href="https://mercadocotacao.com/libra-esterlina-hoje/" id="GBP" title="Libra Esterlina" name="mercado_cotacao">Libra Esterlina</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+
+
+</form>
+
+
+<%- include('footer') %>

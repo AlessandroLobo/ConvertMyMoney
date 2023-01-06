@@ -1,0 +1,47 @@
+html {
+  background: #282a36;
+}
+
+head {
+  background: #282a36;
+}
+
+form {
+  text-align: center;
+  margin-top: 60px;
+  background-color: #282a36;
+  width: 500px;
+}
+
+h1 {
+  background-color: #282a36;
+  text-align: center;
+}
+
+h1 img {
+  width: 489px;
+  margin: 20px;
+}
+input {
+  font-size: 20px;
+
+  padding: 10px;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+}
+.result {
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  background-color: #383838;
+}
+
