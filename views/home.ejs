@@ -1,37 +1,79 @@
 <%- include('header') %>
 
-<form class="mx-auto" method="GET" action="/cotacao" >
-  <a href="https://mercadocotacao.com/dolar-hoje/" id="USD" title="Dólar" name="mercado_cotacao">Dólar</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+<form class="mx-auto" method="GET" action="/cotacao">
+  <a
+    href="https://mercadocotacao.com/dolar-hoje/"
+    id="USD"
+    title="Dólar"
+    name="mercado_cotacao"
+    >Dólar</a
+  >
+  <script
+    async
+    src="https://mercadocotacao.com/money/mercadocotacao.js"
+  ></script>
   <br />
   <br />
-  
+
   <input
-    class="form-control  w-50 mx-auto"
+    class="form-control form-control-xl mx-auto"
+    type=" text"
+    style="width: 70%; height: 70; font-size: 30px"
     name="cotacao"
     placeholder="Cotação dólar"
   />
-  <br /><br />
+  <br />
+  <br />
   <input
-    class="form-control form-control-xl w-50 mx-auto"
+    class="form-control form-control-xl mx-auto"
+    style="width: 70%; height: 70; font-size: 30px"
     name="quantidade"
     placeholder="Quantidade dólar"
   />
   <br />
   <br />
-  <button class="btn btn-primary mx-auto">Converter!</button>
+  <button class="btn btn-primary mx-auto" style="height: 60px; font-size: 30px">
+    Converter!
+  </button>
   <br />
   <br />
   <br />
   <br />
-<a href="https://mercadocotacao.com/euro-hoje/" id="EUR" title="Euro" name="mercado_cotacao">Euro</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+  <a
+    href="https://mercadocotacao.com/euro-hoje/"
+    id="EUR"
+    title="Euro"
+    name="mercado_cotacao"
+    >Euro</a
+  >
+  <script
+    async
+    src="https://mercadocotacao.com/money/mercadocotacao.js"
+  ></script>
 
-<a href="https://mercadocotacao.com/bitcoin-hoje/" id="BTC" title="Bitcoin" name="mercado_cotacao">Bitcoin</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+  <a
+    href="https://mercadocotacao.com/bitcoin-hoje/"
+    id="BTC"
+    title="Bitcoin"
+    name="mercado_cotacao"
+    >Bitcoin</a
+  >
+  <script
+    async
+    src="https://mercadocotacao.com/money/mercadocotacao.js"
+  ></script>
 
-
-<a href="https://mercadocotacao.com/libra-esterlina-hoje/" id="GBP" title="Libra Esterlina" name="mercado_cotacao">Libra Esterlina</a><script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
-
-
+  <a
+    href="https://mercadocotacao.com/libra-esterlina-hoje/"
+    id="GBP"
+    title="Libra Esterlina"
+    name="mercado_cotacao"
+    >Libra Esterlina</a
+  >
+  <script
+    async
+    src="https://mercadocotacao.com/money/mercadocotacao.js"
+  ></script>
 </form>
-
 
 <%- include('footer') %>

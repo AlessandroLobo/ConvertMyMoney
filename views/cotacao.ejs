@@ -3,9 +3,9 @@
 <div style="text-align: center; color: white;">
   <h1 class="mb-5">
     <% if(error){ %> <%= error %> <% }else{ %> $<%= quantidade %> dolares na
-    cotação R$<%= cotacao %> é igual a: R$<%= conversao %> reais <% } %>
+    cotação de R$<%= cotacao %> é igual a: R$<%= conversao %> reais <% } %>
   </h1>
-  <button class="btn btn-primary mx-auto" onclick="window.location.href='/'">Voltar</button>
+  <button class="btn btn-primary mx-auto" style="height: 60px; font-size: 30px" onclick="window.location.href='/'">Voltar</button>
 </div>
 
 <%- include('footer') %>
