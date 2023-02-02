@@ -1,24 +1,15 @@
-<%- include('header') %>
-
+<%- include('header') %> <%#
 <script>
   window.onload = function () {
     document.getElementsByName("cotacao")[0].value = document
       .getElementById("USD")
       .innerHTML.replace("Dólar", "")
       .replace(/:/, "");
-  };
+  }; %>
 </script>
 
 <form class="mx-auto" method="GET" action="/cotacao">
-  <p
-    href="https://mercadocotacao.com/dolar-hoje/"
-    id="USD"
-    title="Dólar"
-    name="mercado_cotacao"
-    disabled
-  >
-    Dólar
-  </p>
+
 
   <br />
   <br />
@@ -29,7 +20,9 @@
     style="width: 70%; height: 70; font-size: 30px"
     name="cotacao"
     placeholder="Cotação dólar"
+    value="<%= cotacao %>"
   />
+
   <br />
   <br />
   <input
